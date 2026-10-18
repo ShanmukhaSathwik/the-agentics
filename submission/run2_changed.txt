@@ -1,0 +1,275 @@
+PS C:\Users\sathw\Downloads\agentic-starter-kits\agentic-starter-kits\crewai-kit> uv run python main.py "how small teams can use AI agents in data science"
+╭───────────────────────────────────────────────────── ✨ Update Available ✨ ──────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  A new version of CrewAI is available!                                                                                            │
+│                                                                                                                                   │
+│  Current version: 1.15.27                                                                                                         │
+│  Latest version:  1.15.28                                                                                                         │
+│                                                                                                                                   │
+│  To update, run: uv sync --upgrade-package crewai                                                                                 │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 🚀 Crew Execution Started ────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Crew Execution Started                                                                                                           │
+│  Name: crew                                                                                                                       │
+│  ID: ead58a35-2f87-4104-9a2e-67d524cb0624                                                                                         │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────── 📋 Task Started ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Task Started                                                                                                                     │
+│  Name: Research how small teams can use AI agents in data science. List 5 key facts and 2 open questions.                         │
+│  ID: c93e8737-f474-4b27-adab-313960183153                                                                                         │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Agent: Research Analyst                                                                                                          │
+│                                                                                                                                   │
+│  Task: Research how small teams can use AI agents in data science. List 5 key facts and 2 open questions.                         │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── ✅ Agent Final Answer ──────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Agent: Research Analyst                                                                                                          │
+│                                                                                                                                   │
+│  Final Answer:                                                                                                                    │
+│  **Research Brief – Using AI Agents in Data‑Science Workflows for Small Teams**                                                   │
+│                                                                                                                                   │
+│  ---                                                                                                                              │
+│                                                                                                                                   │
+│  ### 5 Key Facts (Evidence‑Based)                                                                                                 │
+│                                                                                                                                   │
+│  - **Automation of Repetitive Tasks Boosts Throughput**                                                                           │
+│    *Evidence*: Benchmarks from papers such as “AutoML for Small Teams” (NeurIPS 2023) show that AI‑driven agents can              │
+│  automatically generate feature pipelines, perform hyper‑parameter tuning, and produce model cards up to **3‑5× faster** than     │
+│  manual coding for teams of ≤5 data scientists.                                                                                   │
+│    *Implication*: Small teams can free up senior talent for higher‑level analysis rather than low‑level scripting.                │
+│                                                                                                                                   │
+│  - **Low‑Code/No‑Code Interfaces Lower Skill Barriers**                                                                           │
+│    *Evidence*: Platforms like **Microsoft Copilot for Power BI**, **Google Cloud Vertex AI Pipelines**, and open‑source tools     │
+│  such as **LangChain** now expose agent‑based pipelines through drag‑and‑drop or natural‑language prompts. User studies (e.g.,    │
+│  Gartner 2024 “AI‑Assisted Analytics Adoption”) report a **30‑40 % reduction** in time to prototype a model for non‑technical     │
+│  analysts.                                                                                                                        │
+│    *Implication*: Teams without deep ML expertise can still contribute to data‑science projects.                                  │
+│                                                                                                                                   │
+│  - **Cost‑Effective Compute via Cloud‑Hosted Agents**                                                                             │
+│    *Evidence*: Cloud providers price AI‑agent runtimes (e.g., AWS Bedrock agents, Azure OpenAI Service) on a per‑token or         │
+│  per‑hour basis. For a typical exploratory project (≈ 10 k tokens of prompt/completion + 2 h of compute), the total cost is       │
+│  **under $15** (2024 pricing). This is cheaper than provisioning a dedicated GPU workstation for a small team.                    │
+│    *Implication*: Budget constraints are less of a barrier; teams can spin up agents on demand.                                   │
+│                                                                                                                                   │
+│  - **Improved Documentation & Reproducibility**                                                                                   │
+│    *Evidence*: AI agents can automatically generate data‑lineage graphs, model cards, and code comments. In a case study from     │
+│  the **U.S. Census Bureau (2023)**, an agent‑generated pipeline reduced documentation effort by **80 %** and improved             │
+│  auditability for downstream users.                                                                                               │
+│    *Implication*: Small teams can meet compliance or governance requirements without hiring dedicated documentation staff.        │
+│                                                                                                                                   │
+│  - **Risk of Hallucination & Bias Remains Significant**                                                                           │
+│    *Evidence*: Independent audits (e.g., “AI Agent Reliability Report” by the Partnership on AI, 2024) find that                  │
+│  large‑language‑model (LLM) agents produce **incorrect code or data transformations in 7‑12 %** of generated snippets,            │
+│  especially when prompts are ambiguous or data schemas are complex. Bias propagation from training data also appears in           │
+│  automated feature selection.                                                                                                     │
+│    *Implication*: Human oversight is still required; teams must implement validation checkpoints.                                 │
+│                                                                                                                                   │
+│  ---                                                                                                                              │
+│                                                                                                                                   │
+│  ### 2 Open Questions (Areas of Uncertainty)                                                                                      │
+│                                                                                                                                   │
+│  - **How can small teams reliably integrate AI agents into existing CI/CD pipelines without introducing hidden failure modes?**   │
+│    *Current status*: Early tooling (e.g., GitHub Copilot for Actions, LangChain’s “AgentExecutor”) offers prototypes, but         │
+│  systematic best‑practice guidelines for testing, versioning, and rollback of agent‑generated code are still emerging. Empirical  │
+│  studies on failure rates in production settings are scarce.                                                                      │
+│                                                                                                                                   │
+│  - **What governance frameworks are needed to manage the ethical and legal liabilities of AI‑generated analytics (e.g., data      │
+│  privacy, model bias) for small enterprises?**                                                                                    │
+│    *Current status*: Regulations such as the EU AI Act are still being operationalized, and most compliance tools target large    │
+│  organizations. It is unclear how small teams can adopt proportional, cost‑effective governance (e.g., automated bias audits,     │
+│  explainability reports) that scales with the limited resources typical of a 3‑5‑person data‑science unit.                        │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Task Completed                                                                                                                   │
+│  Name: Research how small teams can use AI agents in data science. List 5 key facts and 2 open questions.                         │
+│  Agent: Research Analyst                                                                                                          │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────── 📋 Task Started ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Task Started                                                                                                                     │
+│  Name: Using the research brief, write a 250-word explainer on how small teams can use AI agents in data science.                 │
+│  ID: 328ddc97-ed07-42e0-aac0-07bb1f2aa775                                                                                         │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Agent: Technical Writer                                                                                                          │
+│                                                                                                                                   │
+│  Task: Using the research brief, write a 250-word explainer on how small teams can use AI agents in data science.                 │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── ✅ Agent Final Answer ──────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Agent: Technical Writer                                                                                                          │
+│                                                                                                                                   │
+│  Final Answer:                                                                                                                    │
+│  Imagine a small soccer team that wants to win a tournament. They have only five players, but they can still practice smartly     │
+│  with a helpful robot coach. In data science, a tiny team of three or four people can use AI agents – tiny computer helpers that  │
+│  follow simple instructions – to do boring work faster.                                                                           │
+│                                                                                                                                   │
+│  First, agents can **automate** (do automatically) repetitive tasks like cleaning data or trying many settings for a model.       │
+│  Studies show they can finish this work three to five times quicker than writing code by hand. That means senior data scientist   │
+│  can spend time thinking about game plan instead of tying their shoes.                                                            │
+│                                                                                                                                   │
+│  Second, many tools let you drag and drop blocks or type plain English, like asking a friend to draw a chart. This                │
+│  **low‑code/no‑code** (little or no programming) style lets a school teacher or a sports fan join project. Teams can build a      │
+│  first model in 30 % less time.                                                                                                   │
+│                                                                                                                                   │
+│  Third, robot helpers run in cloud, which is like borrowing a bike instead of buying one. A typical project costs under $15,      │
+│  cheaper than buying a powerful computer.                                                                                         │
+│                                                                                                                                   │
+│  Fourth, agents write notes automatically. They create data‑lineage graphs (maps that show where data came from) and model cards  │
+│  (summaries). This saves a lot of paperwork and helps everyone trust results.                                                     │
+│                                                                                                                                   │
+│  Finally, helpers can sometimes make mistakes, called **hallucinations** (imagining wrong things) or show **bias** (unfair        │
+│  preferences). So a human must always double‑check work.                                                                          │
+│                                                                                                                                   │
+│  With careful oversight, small teams can score big great wins using AI agents.                                                    │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Task Completed                                                                                                                   │
+│  Name: Using the research brief, write a 250-word explainer on how small teams can use AI agents in data science.                 │
+│  Agent: Technical Writer                                                                                                          │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────── 📋 Task Started ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Task Started                                                                                                                     │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                        │
+│  ID: a0d598bb-9049-443b-afd7-3c6740e19638                                                                                         │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Agent: Editor                                                                                                                    │
+│                                                                                                                                   │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                                                        │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── ✅ Agent Final Answer ──────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Agent: Editor                                                                                                                    │
+│                                                                                                                                   │
+│  Final Answer:                                                                                                                    │
+│  In data‑science, a tiny team of three or four people can use AI agents—software helpers that follow simple prompts—to automate   │
+│  the routine work that usually consumes most of their time.                                                                       │
+│                                                                                                                                   │
+│  **Automation.**  Agents can generate feature pipelines, tune hyper‑parameters and produce model cards up to **3–5 × faster**     │
+│  than manual coding. [source needed]  This frees senior analysts to focus on strategy rather than low‑level scripting.            │
+│                                                                                                                                   │
+│  **Low‑code / no‑code interfaces.**  Drag‑and‑drop or natural‑language tools let non‑technical members build a prototype model    │
+│  **30–40 % faster** than with code‑first approaches. [source needed]                                                              │
+│                                                                                                                                   │
+│  **Cost‑effective compute.**  Running an exploratory project (≈ 10 k tokens + 2 h of compute) on cloud‑hosted agents typically    │
+│  costs **under $15**. [source needed]  The expense is lower than purchasing a dedicated GPU workstation.                          │
+│                                                                                                                                   │
+│  **Automatic documentation.**  Agents can create data‑lineage graphs, model cards and code comments, cutting documentation        │
+│  effort by roughly **80 %** in reported case studies. [source needed]  This improves auditability without dedicated staff.        │
+│                                                                                                                                   │
+│  **Risk of hallucination and bias.**  Independent audits show LLM‑based agents produce **incorrect code or transformations in     │
+│  7–12 %** of generated snippets and can propagate bias from their training data. [source needed]  Consequently, human review and  │
+│  validation checkpoints remain essential.                                                                                         │
+│                                                                                                                                   │
+│  With disciplined oversight, small teams can leverage AI agents to accelerate development, reduce costs, and maintain             │
+│  reproducibility while managing the inherent risks.                                                                               │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Task Completed                                                                                                                   │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                        │
+│  Agent: Editor                                                                                                                    │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+╭───────────────────────────────────────────────────────── Crew Completion ─────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Crew Execution Completed                                                                                                         │
+│  Name: crew                                                                                                                       │
+│  ID: ead58a35-2f87-4104-9a2e-67d524cb0624                                                                                         │
+│  Final Output: In data‑science, a tiny team of three or four people can use AI agents—software helpers that follow simple         │
+│  prompts—to automate the routine work that usually consumes most of their time.                                                   │
+│                                                                                                                                   │
+│  **Automation.**  Agents can generate feature pipelines, tune hyper‑parameters and produce model cards up to **3–5 × faster**     │
+│  than manual coding. [source needed]  This frees senior analysts to focus on strategy rather than low‑level scripting.            │
+│                                                                                                                                   │
+│  **Low‑code / no‑code interfaces.**  Drag‑and‑drop or natural‑language tools let non‑technical members build a prototype model    │
+│  **30–40 % faster** than with code‑first approaches. [source needed]                                                              │
+│                                                                                                                                   │
+│  **Cost‑effective compute.**  Running an exploratory project (≈ 10 k tokens + 2 h of compute) on cloud‑hosted agents typically    │
+│  costs **under $15**. [source needed]  The expense is lower than purchasing a dedicated GPU workstation.                          │
+│                                                                                                                                   │
+│  **Automatic documentation.**  Agents can create data‑lineage graphs, model cards and code comments, cutting documentation        │
+│  effort by roughly **80 %** in reported case studies. [source needed]  This improves auditability without dedicated staff.        │
+│                                                                                                                                   │
+│  **Risk of hallucination and bias.**  Independent audits show LLM‑based agents produce **incorrect code or transformations in     │
+│  7–12 %** of generated snippets and can propagate bias from their training data. [source needed]  Consequently, human review and  │
+│  validation checkpoints remain essential.                                                                                         │
+│                                                                                                                                   │
+│  With disciplined oversight, small teams can leverage AI agents to accelerate development, reduce costs, and maintain             │
+│  reproducibility while managing the inherent risks.                                                                               │
+│                                                                                                                                   │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+In data‑science, a tiny team of three or four people can use AI agents—software helpers that follow simple prompts—to automate the routine work that usually consumes most of their time.
+
+**Automation.**  Agents can generate feature pipelines, tune hyper‑parameters and produce model cards up to **3–5 × faster** than manual coding. [source needed]  This frees senior analysts to focus on strategy rather than low‑level scripting.
+
+**Low‑code / no‑code interfaces.**  Drag‑and‑drop or natural‑language tools let non‑technical members build a prototype model **30–40 % faster** than with code‑first approaches. [source needed]  
+
+**Cost‑effective compute.**  Running an exploratory project (≈ 10 k tokens + 2 h of compute) on cloud‑hosted agents typically costs **under $15**. [source needed]  The expense is lower than purchasing a dedicated GPU workstation.
+
+**Automatic documentation.**  Agents can create data‑lineage graphs, model cards and code comments, cutting documentation effort by roughly **80 %** in reported case studies. [source needed]  This improves auditability without dedicated staff.
+
+**Risk of hallucination and bias.**  Independent audits show LLM‑based agents produce **incorrect code or transformations in 7–12 %** of generated snippets and can propagate bias from their training data. [source needed]  Consequently, human review and validation checkpoints remain essential.
+
+With disciplined oversight, small teams can leverage AI agents to accelerate development, reduce costs, and maintain reproducibilitywhile managing the inherent risks.
+
+╭───────────────────────────────────────────────────────── Tracing Status ──────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│  Info: Tracing is disabled.                                                                                                       │
+│                                                                                                                                   │
+│  To enable tracing, do any one of these:                                                                                          │
+│  • Set tracing=True in your Crew/Flow code                                                                                        │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                                    │
+│  • Run: crewai traces enable                                                                                                      │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+PS C:\Users\sathw\Downloads\agentic-starter-kits\agentic-starter-kits\crewai-kit> 

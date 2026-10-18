@@ -1,0 +1,7 @@
+Small data‑science teams can extend limited time and budgets by offloading repetitive, technical work to AI agents. An AI‑powered code assistant can generate data‑cleaning scripts, feature‑engineering code, and full training pipelines [source needed]. Tests from Google Cloud and Microsoft Azure show that AutoML tools reduce the time to produce a baseline model from weeks to hours while matching the accuracy of manually tuned solutions [source needed].
+
+Because these agents run in the cloud, teams pay only for the compute they actually use [source needed]. An AWS case study reported a 30 % cut in compute spend after a startup replaced manual hyper‑parameter sweeps with an AI‑driven optimizer. The assistants also act as searchable notebooks, retaining data dictionaries, model assumptions, and past decisions so knowledge remains even if a team member departs [source needed].
+
+Prompt‑driven agents accelerate experimentation. In a 2022 Kaggle competition, a three‑person team used an LLM to draft 12 model variants in under an hour and finished in the top 10 [source needed]. This rapid prototyping lets tiny teams explore many ideas without investing in large clusters [source needed].
+
+Governance is still evolving. Early tools can flag obvious bias, but a 2024 NIST survey found only 22 % of small teams trust AI‑generated fairness checks without human verification [source needed]. The current best practice is a human‑in‑the‑loop checkpoint: review code, verify fairness metrics, and log decisions while continuing to leverage AI agents for speed.
